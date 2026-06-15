@@ -1,0 +1,12 @@
+print('Calculadora Simples')
+n1 = input('Insira o número 1: ')
+n2: str = input('Insira o número 2: ')
+soma = int(n1) + int(n2)
+subtracao = int(n1) - int(n2)
+multiplicacao = float(n1) * float(n2)
+divisao = float(n1) / float(n2)
+
+print(f'A Soma entre {n1} + {n2} = {soma:.2f}')
+print(f'A subtração entre {n1} - {n2} = {subtracao:.2f}')
+print(f'A Multiplicação entre {n1} x {n2} = {multiplicacao:.2f}')
+print(f'A Divisão entre {n1} / {n2} = {divisao:.2f}')

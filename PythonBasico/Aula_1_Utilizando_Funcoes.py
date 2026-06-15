@@ -1,0 +1,11 @@
+NumInt = int(input('Insira um número inteiro  '))
+NumDec = float(input('Insira um número decimal'))
+letra = input('Insira uma letra  ')
+
+print(f'O Absoluto do número {NumInt} é ',abs(NumInt))
+print(f'Caractere representado pelo número {NumInt} é ', chr(NumInt))
+print(f'Letra {letra} ordem de número: ', ord(letra))
+print(f'Arredonda {NumDec} considerando 1 casa decimal: {round(NumDec, 11)}')
+print(f'{NumInt}',type(NumInt))
+print(f'{NumDec}',type(NumDec))
+print(f'{letra}',type(letra))
